@@ -31,23 +31,23 @@
       letter-spacing: 2px;
     }
     body.cypherpunk main {
-      padding: 1rem;
+      padding: 2rem 1rem; /* Increased padding for more space */
       max-width: 600px;
       margin: 0 auto;
       opacity: 0.8;
       font-size: 0.9rem;
+      min-height: 200px; /* Ensure main has enough space */
     }
     body.cypherpunk .chat-container {
       width: 80%;
       max-width: 800px;
-      margin: 2rem auto; /* Center and add spacing */
+      margin: 1rem auto 2rem auto; /* Adjusted margins */
       background: rgba(10, 10, 10, 0.9);
       border: 1px solid #00ff99;
       border-radius: 4px;
       box-shadow: 0 0 20px rgba(0, 255, 153, 0.3);
       display: flex;
       flex-direction: column;
-      flex-grow: 1; /* Allow chat to grow */
     }
     body.cypherpunk .chat-header {
       background: #330066;
@@ -59,9 +59,8 @@
       letter-spacing: 1px;
     }
     body.cypherpunk .chat-messages {
-      flex-grow: 1;
       min-height: 100px;
-      max-height: 50vh; /* Adjusted for better fit */
+      max-height: 40vh; /* Reduced to prevent overlap */
       overflow-y: auto;
       padding: 1rem;
       background: #1a1a1a;
@@ -139,24 +138,24 @@
       letter-spacing: 1px;
     }
     body.scifi-fantasy main {
-      padding: 1rem;
+      padding: 2rem 1rem;
       max-width: 600px;
       margin: 0 auto;
       opacity: 0.9;
       font-size: 1rem;
       font-family: 'Cinzel', serif;
+      min-height: 200px;
     }
     body.scifi-fantasy .chat-container {
       width: 80%;
       max-width: 800px;
-      margin: 2rem auto;
+      margin: 1rem auto 2rem auto;
       background: rgba(43, 26, 77, 0.9);
       border: 1px solid #ffd700;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
       display: flex;
       flex-direction: column;
-      flex-grow: 1;
     }
     body.scifi-fantasy .chat-header {
       background: #5e3a8c;
@@ -167,9 +166,8 @@
       font-family: 'Cinzel', serif;
     }
     body.scifi-fantasy .chat-messages {
-      flex-grow: 1;
       min-height: 100px;
-      max-height: 50vh;
+      max-height: 40vh;
       overflow-y: auto;
       padding: 1rem;
       background: #3a1f66;
